@@ -20,23 +20,23 @@ li {
 
 .light-theme {
     color: #000000;
-    background: #ffff00;
+    background: #87ceeb;
   }
 
 :root {
-    --yellow: #ffff00;
+    --skyblue: #87ceeb;
     --white: #ffffff;
     --black: #000000;
   }
 
 .light-theme {
-    --bg: var(--yellow);
+    --bg: var(--skyblue);
     --fontColor: var(--black);
   }
 
 .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--yellow);
+    --fontColor: var(--skyblue);
   }
 
 * {
@@ -62,7 +62,7 @@ body {
 .btn:focus { outline-style: none; }
 
 .light-theme {
-  --bg: var(--yellow);
+  --bg: var(--skyblue);
   --fontColor: var(--black);
   --btnBg: var(--black);
   --btnFontColor: var(--white);
@@ -70,7 +70,7 @@ body {
 
 .dark-theme {
   --bg: var(--black);
-  --fontColor: var(--yellow);
+  --fontColor: var(--skyblue);
   --btnBg: var(--white);
   --btnFontColor: var(--black);
 }
