@@ -14,29 +14,27 @@ li {
     list-style: square;
   }
 
-#msg {
-  font-family: monospace;
-}
+
 
 .light-theme {
     color: #000000;
-    background: #9acd32;
+    background: #ffff00;
   }
 
 :root {
-    --yellowgreen: #9acd32;
+    --yellowgreen: #ffff00;
     --white: #ffffff;
     --black: #000000;
   }
 
 .light-theme {
-    --bg: var(--yellowgreen);
+    --bg: var(--yellow);
     --fontColor: var(--black);
   }
 
 .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--yellowgreen);
+    --fontColor: var(--yellow);
   }
 
 * {
@@ -62,7 +60,7 @@ body {
 .btn:focus { outline-style: none; }
 
 .light-theme {
-  --bg: var(--yellowgreen);
+  --bg: var(--yellow);
   --fontColor: var(--black);
   --btnBg: var(--black);
   --btnFontColor: var(--white);
@@ -70,7 +68,7 @@ body {
 
 .dark-theme {
   --bg: var(--black);
-  --fontColor: var(--yellowgreen);
+  --fontColor: var(--yellow);
   --btnBg: var(--white);
   --btnFontColor: var(--black);
 }
