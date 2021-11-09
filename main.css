@@ -30,14 +30,18 @@ li {
   }
 
 .light-theme {
-    --bg: var(--skyblue);
-    --fontColor: var(--black);
-  }
-
+  --bg: var(--skyblue);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
+}
+  
 .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--skyblue);
-  }
+  --bg: var(--black);
+  --fontColor: var(--skyblue);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
+}
 
 * {
     color: var(--fontColor);
@@ -60,17 +64,3 @@ body {
   }
 
 .btn:focus { outline-style: none; }
-
-.light-theme {
-  --bg: var(--skyblue);
-  --fontColor: var(--black);
-  --btnBg: var(--black);
-  --btnFontColor: var(--white);
-}
-
-.dark-theme {
-  --bg: var(--black);
-  --fontColor: var(--skyblue);
-  --btnBg: var(--white);
-  --btnFontColor: var(--black);
-}
