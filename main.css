@@ -14,7 +14,9 @@ li {
     list-style: square;
   }
 
-
+#msg {
+  font-family: monospace;
+}
 
 .light-theme {
     color: #000000;
