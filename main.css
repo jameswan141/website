@@ -16,7 +16,7 @@ li {
 
 #msg {
   font-family: monospace;
-}
+  }
 
 .light-theme {
     color: #000000;
@@ -44,12 +44,12 @@ li {
 }
 
 * {
-    color: var(--fontColor);
-    font-family: helvetica;
-  }
+  color: var(--fontColor);
+  font-family: helvetica;
+}
 body {
-      background: var(--bg);
-  }
+    background: var(--bg);
+}
 
 .btn {
     position: absolute;
