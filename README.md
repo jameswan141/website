@@ -1,2 +1,2 @@
 # website
-My project that creates a website.
+A project I made during college that creates a website.
