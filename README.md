@@ -1,2 +1,2 @@
 # website
-A project I made during college as coursework that creates a website.
+A project I made as college coursework that creates a website.
